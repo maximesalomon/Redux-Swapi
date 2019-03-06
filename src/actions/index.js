@@ -16,7 +16,7 @@ export const fetchChar = people => {
             });
         })
         .catch(err => {
-            dispatch({ type: FAILURE, payload: "Unable to Fetch SW Data" });
+            dispatch({ type: FAILURE, payload: "Unable to Fetch Star Wars Data" });
         });
     };
 }; 
